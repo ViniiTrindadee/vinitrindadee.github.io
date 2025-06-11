@@ -11,11 +11,14 @@
 <body>
 
   <header class="menu">
-    <nav>
-      <a href="#ferramentas">Ferramentas</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#contato">Contato</a>
+    <nav class="navbar">
+      <span class="logo">☰</span>
+      <ul class="nav-links">
+        <li><a href="#ferramentas">Ferramentas</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -27,21 +30,17 @@
 
       <div class="social">
         <a href="https://github.com/ViniiTrindadee" title="Acessar o GitHub" target="_blank">
-        <img src="imagens/logo_github.png" alt="GitHub">
+          <img src="imagens/logo_github.png" alt="GitHub">
         </a>
-
         <a href="https://linkedin.com/in/vinicius-trindade-da-silva" title="Acessar o LinkedIn" target="_blank">
-        <img src="imagens/logo_linkedin.png" alt="LinkedIn">
+          <img src="imagens/logo_linkedin.png" alt="LinkedIn">
         </a>
-
-        <a href="https://mail.google.com/mail/?view=cm&to=viniciustrindadedasilva@gmail.com" target="_blank" title="Enviar -mail">
-        <img src="imagens/logo_gmail.png" alt="Gmail">
+        <a href="https://mail.google.com/mail/?view=cm&to=viniciustrindadedasilva@gmail.com" target="_blank" title="Enviar e-mail">
+          <img src="imagens/logo_gmail.png" alt="Gmail">
         </a>
-
         <a href="https://wa.me/5511982169190" title="Conversar no WhatsApp" target="_blank">
-        <img src="imagens/logo_wpp.png" alt="WhatsApp">
+          <img src="imagens/logo_wpp.png" alt="WhatsApp">
         </a>
-
       </div>
 
       <div class="formacao">
@@ -80,27 +79,24 @@
       <section id="projetos">
         <h2>Projetos em Destaque</h2>
 
-        <!-- 🔸 Dashboards de BI -->
+        <!-- Dashboards de BI -->
         <h3 style="margin-bottom: 20px;">Dashboards de Business Intelligence</h3>
 
         <div class="projects">
           <div class="card">
             <img src="imagens/dash_rh.png">
             <h3>Dashboard de Recursos Humanos</h3>
-            <p>DDashboard de RH construído em Power BI para monitoramento de KPIs de pessoal, como distribuição de colaboradores por gênero, departamento e filial, 
-              salários médios, média de idade, contratações, demissões e faltas. Ideal para tomadas de decisão estratégicas voltadas à gestão de pessoas e políticas internas.</p>
+            <p>Dashboard de RH construído em Power BI para monitoramento de KPIs de pessoal, como distribuição de colaboradores por gênero, departamento e filial, salários médios, média de idade, contratações, demissões e faltas. Ideal para tomadas de decisão estratégicas voltadas à gestão de pessoas e políticas internas.</p>
             <div class="tags"><span>Python</span><span>SQL Server</span><span>Power BI</span></div>
-            <a class="btn" href="https://github.com/ViniiTrindadee/Dashboard-Recursos-Humanos/blob/main/Dash%20RH.pbix">Baixar Arquivo</a>
+            <a class="btn" href="https://github.com/ViniiTrindadee/Dashboard-Recursos-Humanos/raw/main/Dash%20RH.pbix">Baixar Arquivo</a>
           </div>
 
           <div class="card">
             <img src="imagens/dash_produção.png">
             <h3>Eficiência Operacional - Power BI</h3>
-            <p>Dashboard de eficiência operacional com foco na performance da produção, produtividade por produto e tempo médio de execução por peça. Apresenta ainda 
-              indicadores de eficiência global da linha e taxa de rejeição, com visualização histórica da produção mensal. Ferramenta essencial para controle 
-              de performance industrial e melhoria contínua.</p>
+            <p>Dashboard de eficiência operacional com foco na performance da produção, produtividade por produto e tempo médio de execução por peça. Apresenta ainda indicadores de eficiência global da linha e taxa de rejeição, com visualização histórica da produção mensal.</p>
             <div class="tags"><span>Power BI</span><span>Excel</span></div>
-            <a class="btn" href="https://github.com/ViniiTrindadee/Dashboard_Eficiencia_Operacional">Baixar Arquivo</a>
+            <a class="btn" href="https://github.com/ViniiTrindadee/Dashboard_Eficiencia_Operacional/raw/main/dash_prod.pbix">Baixar Arquivo</a>
           </div>
         </div>
 
@@ -108,43 +104,36 @@
           <div class="card">
             <img src="imagens/dashboard_logistico.png">
             <h3>Dashboard Logístico - Power BI</h3>
-            <p>Dashboard desenvolvido no Power BI com foco em indicadores de vendas e logística. Permite acompanhar o volume de entregas, motoristas com maior 
-              participação, distribuição geográfica e metas de faturamento por estado, tipo de veículo e categoria de produto. Ideal para tomada de decisão estratégica 
-              com base em KPIs logísticos e comerciais.</p>
+            <p>Dashboard desenvolvido no Power BI com foco em indicadores de vendas e logística. Permite acompanhar o volume de entregas, motoristas com maior participação, distribuição geográfica e metas de faturamento.</p>
             <div class="tags"><span>Power BI</span><span>SQL Server</span></div>
-            <a class="btn" href="https://github.com/ViniiTrindadee/Dashboard_Logistico">Baixar Arquivo</a>
+            <a class="btn" href="https://github.com/ViniiTrindadee/Dashboard_Logistico/raw/main/relatório_logistico.pbix">Baixar Arquivo</a>
           </div>
 
           <div class="card">
             <img src="imagens/dash_financeiro.png">
             <h3>Dashboard Financeiro - Power BI</h3>
-            <p>Dashboard criado no Power BI para gestão financeira completa, com foco em receita, despesa, lucro, orçamento previsto e comparativo por cliente. Inclui 
-              visualizações de evolução mensal, análise por categorias, empresas e desempenho dos principais clientes. Solução ideal para avaliação de metas e rentabilidade 
-              ao longo do tempo.</p>
+            <p>Dashboard criado no Power BI para gestão financeira completa, com foco em receita, despesa, lucro, orçamento previsto e comparativo por cliente. Solução ideal para avaliação de metas e rentabilidade ao longo do tempo.</p>
             <div class="tags"><span>Power BI</span><span>SQL Server</span><span>Python</span></div>
-            <a class="btn" href="https://github.com/ViniiTrindadee/projeto_financeiro">Baixar Arquivo</a>
+            <a class="btn" href="https://github.com/ViniiTrindadee/projeto_financeiro/raw/main/Projeto_Financeiro.pbix">Baixar Arquivo</a>
           </div>
         </div>
 
-        <!-- 🔸 Projetos Python, Modelagem, Engenharia -->
+        <!-- Projetos Python, Modelagem, Engenharia -->
         <h3 style="margin: 40px 0 20px;">Projetos de Python e Engenharia de Dados</h3>
 
         <div class="projects">
           <div class="card">
             <img src="imagens/automacao_python.jpg">
             <h3>Automação de Dados – Python</h3>
-            <p>Pipeline de automação desenvolvido em Python para extração, transformação e carga de dados (ETL), com integração a arquivos Excel, bancos relacionais e 
-              conexão com SQL Server via SQLAlchemy. Solução aplicada para alimentar tabelas financeiras de forma escalável, reduzindo o tempo de manipulação manual de dados.</p>
+            <p>Pipeline de automação desenvolvido em Python para extração, transformação e carga de dados (ETL), com integração a arquivos Excel, bancos relacionais e SQL Server via SQLAlchemy.</p>
             <div class="tags"><span>Python</span><span>APIs</span><span>Automação</span></div>
-            
           </div>
 
           <div class="card">
             <img src="imagens/modelagem_sql.jpg">
             <h3>Modelagem de Dados – SQL</h3>
-            <p>Projeto de modelagem dimensional utilizando SQL Server e PostgreSQL, aplicando o conceito de estrela (Star Schema) com criação de tabelas fato e dimensões. Estrutura projetada para dar suporte a análises de desempenho financeiro, otimizando consultas em ambientes analíticos.</p>
+            <p>Modelagem dimensional com SQL Server e PostgreSQL, usando Star Schema. Projeto voltado para otimizar consultas em ambientes analíticos financeiros.</p>
             <div class="tags"><span>SQL Server</span><span>PostgreSQL</span><span>Modelagem</span></div>
-            
           </div>
         </div>
 
@@ -152,52 +141,40 @@
           <div class="card">
             <img src="imagens/automação_2.jpg">
             <h3>ETL Automatizado com Python e DuckDB</h3>
-            <p>Desenvolvimento de um pipeline de ETL utilizando Python com foco em performance e portabilidade. A extração e transformação de dados são feitas com DuckDB, 
-              integrando diferentes fontes como planilhas Excel, arquivos .csv e bases relacionais. O script trata, organiza e carrega os dados prontos para análise em ambientes de BI e bancos SQL.</p>
+            <p>Pipeline com Python e DuckDB para processar dados de Excel, CSV e SQL. Automatiza extrações e transforma dados para BI com alta performance.</p>
             <div class="tags"><span>Python</span><span>APIs</span><span>Automação</span></div>
-            
           </div>
 
           <div class="card">
             <img src="imagens/modelagem_2.jpg">
             <h3>Modelagem de Dados - SQL</h3>
-            <p>Projeto de criação de banco de dados modelado para simular um ambiente financeiro relacional, com extração de dados via DuckDB e criação de tabelas normalizadas. Foram criadas tabelas para clientes, empresas, despesas e orçamentos, permitindo análises estruturadas em SQL e posterior visualização em ferramentas de BI.</p>
+            <p>Modelagem de banco de dados relacional para ambiente financeiro. Inclui normalização, estrutura de clientes, empresas, orçamentos e despesas.</p>
             <div class="tags"><span>SQL Server</span><span>PostgreSQL</span><span>Modelagem</span></div>
-            
           </div>
         </div>
       </section>
 
       <!-- SOBRE -->
-<section id="sobre">
-  <div class="resumo-box">
-    <h2>Sobre Mim</h2>
-    <p style="text-align: center;">
-      Sou Analista de Dados com foco em Business Intelligence e Engenharia de Dados, especializado em transformar grandes volumes de dados em informações claras, confiáveis e acionáveis.
-    </p>
-    <p style="text-align: center;">
-      Unindo conhecimento técnico e visão de negócio, atuo na criação de pipelines de dados eficientes, na automação de rotinas analíticas com Python e no desenvolvimento de dashboards estratégicos para apoiar decisões em áreas como marketing, vendas, operações e diretoria.
-    </p>
-    <p style="text-align: center;"><strong>Minhas entregas geram impacto direto, como:</strong></p>
-    <ul style="text-align: center; list-style-position: inside;">
-      <li>Redução no tempo de resposta das análises com otimização de queries e estruturação de Data Marts</li>
-      <li>Automação de fluxos de ETL com Python, Airflow, SSIS, Talend e DuckDB</li>
-      <li>Construção de dashboards interativos em Power BI e Looker Studio, integrando dados de diferentes fontes (SQL Server, PostgreSQL, MySQL, BigQuery)</li>
-      <li>Modelagem dimensional (Star Schema) aplicada em CRM, SAC e campanhas de incentivo</li>
-    </ul>
-    <p style="text-align: center;">
-      Atualmente, curso Engenharia de Dados pela PUC Minas e atuo com foco em performance, escalabilidade e qualidade dos dados. Tenho como missão tornar os dados um ativo estratégico, acessível e confiável para o negócio.
-    </p>
-  </div>
-</section>
-
+      <section id="sobre">
+        <div class="resumo-box">
+          <h2>Sobre Mim</h2>
+          <p style="text-align: center;">Sou Analista de Dados com foco em BI e Engenharia de Dados, transformando grandes volumes de dados em informações confiáveis e acionáveis.</p>
+          <p style="text-align: center;">Atuo com criação de pipelines, automação com Python e desenvolvimento de dashboards estratégicos.</p>
+          <ul style="text-align: center; list-style-position: inside;">
+            <li>Otimização de queries e criação de Data Marts</li>
+            <li>ETL com Python, Airflow, SSIS, Talend e DuckDB</li>
+            <li>Dashboards em Power BI e Looker Studio</li>
+            <li>Modelagem Star Schema em CRM, SAC e campanhas</li>
+          </ul>
+          <p style="text-align: center;">Curso Engenharia de Dados na PUC Minas. Minha missão é transformar dados em valor para o negócio.</p>
+        </div>
+      </section>
 
       <!-- CONTATO -->
       <section id="contato">
         <div class="contato-box">
           <h2>Como podemos nos Conectar?</h2>
           <div class="contato-opcoes">
-
             <div class="contato-item">
               <img src="imagens/logo_gmail.png" alt="Email">
               <h3>Email</h3>
@@ -211,13 +188,31 @@
               <p>Fale comigo agora</p>
               <a href="https://wa.me/5511982169190" target="_blank">(11) 98216-9190</a>
             </div>
-
           </div>
         </div>
       </section>
 
     </main>
   </div>
+
+<script>
+  const logo = document.querySelector('.logo');
+  const navLinks = document.querySelector('.nav-links');
+  const navItems = document.querySelectorAll('.nav-links li a');
+
+  logo.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  navItems.forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 768) {
+        navLinks.classList.remove('active');
+      }
+    });
+  });
+</script>
+s
 
 </body>
 </html>
